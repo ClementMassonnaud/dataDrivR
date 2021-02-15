@@ -1,0 +1,19 @@
+Package: dataDrivR
+Title: Impact of data-driven methods for causal inference
+Version: 0.0.0.9000
+Authors@R: 
+   c(person(given = "Clément",
+           family = "Massonnaud",
+           role = c("aut", "cre"),
+           email = "clement.massonnaud@gmail.com"))
+Description: A package to assess the impact of data-driven methods for causal inference
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    data.table,
+    abe
+Depends: 
+    R (>= 4.0)
